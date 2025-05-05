@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .glass-card {
+    @apply bg-white bg-opacity-15 backdrop-filter backdrop-blur-lg rounded-2xl border border-white border-opacity-10 shadow-lg;
+  }
+
+  .search-input {
+    @apply bg-white bg-opacity-20 rounded-l-lg placeholder-white placeholder-opacity-70 focus:bg-opacity-30 focus:outline-none transition-all duration-300;
+  }
+
+  .weather-icon {
+    @apply transition-transform duration-300;
+  }
+
+  .forecast-item {
+    @apply transition-all duration-300;
+  }
+
+  .forecast-item:hover {
+    @apply transform translate-y-[-5px] bg-opacity-25;
+  }
+
+  .floating {
+    animation: float 6s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%,
+    100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+}
