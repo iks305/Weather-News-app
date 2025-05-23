@@ -9,6 +9,7 @@
 - Лёгкий и чистый UI
 
 ### Используемые технологии:
+- JavaScript
 - React.js
 - Node.js
 - Tailwind CSS  
