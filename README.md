@@ -17,7 +17,7 @@
 - Axios  
 
 ### Требования:
-- **[Node.js](https://nodejs.org/)** (в случае, если не установлен)
+- Node.js
 
 ### Как запустить проект:
 1. Убедитесь, что у вас установлен Node.js:
@@ -40,7 +40,7 @@
 
 4. Создайте `.env` файл и добавьте API ключи:
    ```
-   REACT_APP_WEATHER_API_KEY=ваш_ключ
+   REACT_APP_OPENWEATHER_API_KEY=ваш_ключ
    REACT_APP_NEWS_API_KEY=ваш_ключ
    ```
 
